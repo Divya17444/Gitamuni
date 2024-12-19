@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F8F9FA;
+            color: #2C3E50;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h2, h3 {
+            color: #1A5276;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #333333;
+            margin: 10px auto;
+            width: 70%;
+        }
+
+        ul {
+            margin: 10px 0;
+        }
+
+        li {
+            font-size: 18px;
+            margin: 10px;
+            color: #2C3E50;
+        }
+
+        a {
+            color: #2980B9;
+        }
+
+        table {
+            margin: 20px auto;
+            width: 50%;
+            background-color: #ffffff;
+            border: 1px solid #D5DBDB;
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        td {
+            padding: 10px;
+            font-size: 18px;
+            color: #2C3E50;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            font-size: 16px;
+            margin: 5px 0;
+            border: 1px solid #BDC3C7;
+        }
+
+        input[type="submit"] {
+            background-color: #1A5276;
+            color: #ffffff;
+            font-size: 18px;
+            padding: 10px 20px;
+        }
+
+        .info-section {
+            margin: 20px auto;
+            padding: 20px;
+            width: 60%;
+            background-color: #EAF2F8;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Contact Us</h2>
+    <table class="info-section">
+        <tr>
+            <td colspan="2">
+                <h3>Gitam University Contact Information</h3>
+                <p>If you have any questions or require assistance, please feel free to reach out to us:</p>
+                <ul>
+                    <li><strong>Phone:</strong> +91-08912 790501</li>
+                    <li><strong>Admissions:</strong> <a href="mailto:admissions@gitam.edu">admissions@gitam.edu</a></li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <form>
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="name" required></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td>Message:</td>
+                <td><textarea name="message" rows="5" cols="30" required></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
