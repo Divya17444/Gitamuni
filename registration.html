@@ -1,0 +1,76 @@
+<html>
+<head>
+<title>Student Registration</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+text-align: center;
+background-color: #f2f2f2;
+}
+
+h2 {
+color: #004080;
+}
+
+form {
+background: #fff;
+border: 1px solid #ddd;
+padding: 15px;
+width: 300px;
+margin: auto;
+border-radius: 5px;
+}
+
+table {
+width: 100%;
+}
+
+td {
+padding: 8px;
+}
+
+input, select {
+width: 95%;
+padding: 5px;
+}
+
+input[type="submit"] {
+background-color: #004080;
+color: white;
+border: none;
+padding: 8px;
+}
+</style>
+</head>
+<body>
+<h2>Student Registration</h2>
+<form action="submit_registration.php" method="post">
+<table>
+<tr>
+<td>Username:</td>
+<td><input type="text" name="username" required></td>
+</tr>
+<tr>
+<td>Password:</td>
+<td><input type="password" name="password" required></td>
+</tr>
+<tr>
+<td>Course:</td>
+<td>
+<select name="course" required>
+<option value="" disabled selected>Select a Course</option>
+<option value="btech_cse">B.Tech in Computer Science</option>
+<option value="btech_ece">B.Tech in Electronics and Communication</option>
+<option value="btech_mech">B.Tech in Mechanical Engineering</option>
+</select>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="text-align:center;">
+<input type="submit" value="Register">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
